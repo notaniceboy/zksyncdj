@@ -1,0 +1,11 @@
+seid tx staking create-validator \
+    --amount=1000000usei \
+    --pubkey=$PUBKEY \
+    --moniker=$MONIKER \
+    --chain-id=$CHAIN_ID \
+    --from=$ACCOUNT_NAME \
+    --commission-rate="0.10" \
+    --commission-max-rate="0.20" \
+    --commission-max-change-rate="0.01" \
+    --min-self-delegation="1" \
+    --fees="2000usei"
