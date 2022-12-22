@@ -4,6 +4,5 @@
 nice shot
 
 
-$$ 
 ###
 lin xiu ying
